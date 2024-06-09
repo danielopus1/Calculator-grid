@@ -1,0 +1,146 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Generate 4 columns of equal 1 fraction each */
+    grid-template-rows: repeat(6, 1fr); /* Generate 6 rows of equal 1 fraction each */
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-left: 47rem;
+    margin-top: 90px;
+    width: 15rem;
+    height: 50rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .calculator>div {
+    background-color: rgb(3, 40, 54);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 
+      0.3px 0 0 0 black, 
+      0 0.3px 0 0 black, 
+      0.3px 0.3px 0 0 black,
+      0.3px 0 0 0 black inset, 
+      0 0.3px 0 0 black inset;
+      border-radius: 1px;
+  }
+  
+ .calculator .div1 {
+    grid-area: 1 / 1 / 2 / 5; /* Start at Row 1, Start at Column 1, End at Row 2 and End at Column 5 */
+    background-color: white;
+    font-size: 35px;
+    width: 25rem;
+    height: 5rem;
+    color: black;
+    padding-top: 85px;
+    text-align: start;
+  }
+  
+ .calculator .div2 {
+    grid-area: 3 / 1 / 2 / 3;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div5 {
+    grid-area: 2 / 4 / 3 / 5;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div6 {
+    grid-area: 3 / 1 / 4 / 2;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div7 {
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div8 {
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div9 {
+    grid-area: 3 / 4 / 4 / 5;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div10 {
+    grid-area: 4 / 1 / 5 / 2;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div11 {
+    grid-area: 4 / 2 / 5 / 3;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div12 {
+    grid-area: 4 / 3 / 5 / 4;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div13 {
+    grid-area: 4 / 4 / 5 / 5;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div14 {
+    grid-area: 5 / 1 / 6 / 2;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div15 {
+    grid-area: 5 / 2 / 6 / 3;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div16 {
+    grid-area: 5 / 3 / 6 / 4;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div17 {
+    grid-area: 4 / 4 / 6 / 7;
+    text-align: center;
+    padding-top: 95px;
+  }
+  
+ .calculator .div18 {
+    grid-area: 6 / 2 / 6 / 1;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div19 {
+    grid-area: 6 / 3 / 7 / 2;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+ .calculator .div20 {
+    grid-area: 6 / 4 / 7 / 3;
+    text-align: center;
+    padding-top: 40px;
+  }
