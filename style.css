@@ -15,7 +15,7 @@
   
   .calculator>div {
     background-color: rgb(3, 40, 54);
-    padding: 30px;
+    padding: 25px;
     text-align: center;
     box-shadow: 
       0.3px 0 0 0 black, 
@@ -30,10 +30,10 @@
     grid-area: 1 / 1 / 2 / 5; /* Start at Row 1, Start at Column 1, End at Row 2 and End at Column 5 */
     background-color: white;
     font-size: 35px;
-    width: 21rem;
-    height: 5rem;
+    width: 20rem;
+    height: 4rem;
     color: black;
-    padding-top: 85px;
+    padding-top: 80px;
     text-align: start;
   }
   
