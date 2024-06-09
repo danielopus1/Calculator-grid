@@ -1,5 +1,5 @@
 body {
-  align-items: center;
+  text-align: center;
 }
 
 .calculator {
@@ -11,16 +11,15 @@ body {
     font-size: 35px;
     margin-left: 30rem;
     margin-top: 90px;
-    width: 10rem;
+    width: 12rem;
     height: 10rem;
-    align-items: center;
     text-align: center;
     color: white;
   }
   
   .calculator>div {
     background-color: rgb(3, 40, 54);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     box-shadow: 
       0.3px 0 0 0 black, 
@@ -35,8 +34,8 @@ body {
     grid-area: 1 / 1 / 2 / 5; /* Start at Row 1, Start at Column 1, End at Row 2 and End at Column 5 */
     background-color: white;
     font-size: 35px;
-    width: 20rem;
-    height: 4rem;
+    width: 18rem;
+    height: 5rem;
     color: black;
     padding-top: 80px;
     text-align: start;
